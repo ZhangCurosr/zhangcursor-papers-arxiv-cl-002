@@ -4,5 +4,31 @@
  "title": "When-Errors-Become-Memories-Causal-Pathway-Tracing-in-Multi",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-01 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5921da4c-f482-4ee0-88eb-360b58436f09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5921da4c-f482-4ee0-88eb-360b58436f09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:35:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "结构因果模型",
+    "多轮对话",
+    "记忆增强LLM",
+    "错误传播",
+    "反事实干预",
+    "路径分解"
+   ],
+   "field": "大语言模型可解释性与可靠性",
+   "innovations": [
+    "提出基于SCM的四轨迹反事实干预框架分解记忆更新与问题反馈路径的独立效应",
+    "定义四级错误影响指标体系捕捉显性与潜伏性错误传播",
+    "路径引导修复策略联合修复记忆状态与对话上下文几乎消除残差传播"
+   ],
+   "benchmarks": [
+    "LongMemEval",
+    "MemBench",
+    "MemoryAgent-Bench"
+   ]
+  }
+ }
 }

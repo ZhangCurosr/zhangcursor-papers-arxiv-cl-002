@@ -4,5 +4,29 @@
  "title": "When-Models-Hear-What-They-Expect-Diagnosing-Prosodic-Heuris",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-01 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b5c96f1a-1dea-47cc-b6db-8a5ab6bbedbb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b5c96f1a-1dea-47cc-b6db-8a5ab6bbedbb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:35:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal sarcasm detection",
+    "prosodic heuristics",
+    "MLLM diagnostics",
+    "cross-lingual paralinguistics",
+    "causal acoustic manipulation"
+   ],
+   "field": "多模态语用推理与副语言计算",
+   "innovations": [
+    "五模态条件诊断框架定位讽刺检测中的假阳性声学驱动因素",
+    "跨语言表达性韵律刻板印象（高音调+不规则停顿）的因果验证",
+    "PSOLA定向操纵诱发最高60%假阳性的样本外因果检验"
+   ],
+   "benchmarks": [
+    "MUStARD++",
+    "MSCD"
+   ]
+  }
+ }
 }

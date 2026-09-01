@@ -4,5 +4,31 @@
  "title": "WebWorld-The-Browser-as-a-World-Model-for-Self-Improving-Web",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-01 17:37:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2d061085-d908-4f73-990b-7779a7d3fbfa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2d061085-d908-4f73-990b-7779a7d3fbfa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:34:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "web code generation",
+    "browser as world model",
+    "self-improving agents",
+    "interactive HTML",
+    "SFT data construction",
+    "hypothesis-proof separation",
+    "VLM self-repair"
+   ],
+   "field": "Web 代码生成与自改进",
+   "innovations": [
+    "将浏览器视为 Web 代码的现成世界模型，实现命题-证明分离的自改进闭环",
+    "交互契约+接受证书+质量棘轮的三元认证机制，确保仅证书化转换进入 SFT",
+    "五级证明体系（同轨迹重放→能力增益→目标进展→局部视觉→静态结构）平衡数据质量与吞吐量"
+   ],
+   "benchmarks": [
+    "HTMLBench-400",
+    "MiniAppBench-Val"
+   ]
+  }
+ }
 }

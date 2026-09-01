@@ -4,5 +4,34 @@
  "title": "Where-Do-Multilingual-Vision-Language-Encoders-Fail-on-Low-R",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-01 17:35:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/16764281-6d19-4153-b9a3-02548a336a84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/16764281-6d19-4153-b9a3-02548a336a84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:35:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言视觉语言模型",
+    "低资源语言",
+    "激活替换",
+    "表征几何",
+    "线性概念擦除",
+    "机制可解释性",
+    "跨语言对齐"
+   ],
+   "field": "多语言视觉-语言表示学习",
+   "innovations": [
+    "证伪多语言VLM中线性语言方向偏差的因果作用，定位EOS前向路径轨迹发散为根因",
+    "提出前向路径EOS-patching干预协议及三重控制条件分离实质性恢复与pooling tautology",
+    "设计浅层trunk校准方法，通过InfoNCE+质心对齐损失以低成本实现LRL检索大幅恢复"
+   ],
+   "benchmarks": [
+    "XM3600",
+    "Flickr30k-200",
+    "XTD-200",
+    "Babel-ImageNet",
+    "CVQA"
+   ]
+  }
+ }
 }
