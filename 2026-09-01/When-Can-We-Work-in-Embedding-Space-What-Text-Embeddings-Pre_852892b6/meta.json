@@ -4,5 +4,31 @@
  "title": "When-Can-We-Work-in-Embedding-Space-What-Text-Embeddings-Pre",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-01 17:35:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/70d6606e-c854-4447-9741-bb6e6870ff41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/70d6606e-c854-4447-9741-bb6e6870ff41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:59:27",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "文本嵌入",
+    "主题模型",
+    "Word2Vec SGNS",
+    "因果控制",
+    "聚类理论",
+    "概率比矩阵",
+    "原型混合"
+   ],
+   "field": "嵌入表示学习与理论",
+   "innovations": [
+    "证明 SGNS 近似恢复主题加载几何，建立嵌入与主题模型的隐式联系",
+    "证明文档嵌入是主题混合的可逆线性编码，提供聚类与控制的应用条件",
+    "刻画稀疏先验下秩近似的失效边界，给出理论适用性诊断量"
+   ],
+   "benchmarks": [
+    "CBSA 经济叙事聚类",
+    "模拟主题模型数据"
+   ]
+  }
+ }
 }
