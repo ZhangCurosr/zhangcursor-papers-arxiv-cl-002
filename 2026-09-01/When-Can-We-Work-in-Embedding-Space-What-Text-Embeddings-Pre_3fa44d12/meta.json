@@ -4,5 +4,10 @@
  "title": "When-Can-We-Work-in-Embedding-Space-What-Text-Embeddings-Pre",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-01 07:18:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/70d6606e-c854-4447-9741-bb6e6870ff41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/70d6606e-c854-4447-9741-bb6e6870ff41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:26:12",
+  "chunks": 4
+ }
 }
