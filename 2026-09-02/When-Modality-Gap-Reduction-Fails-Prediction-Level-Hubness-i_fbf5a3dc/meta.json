@@ -4,5 +4,38 @@
  "title": "When-Modality-Gap-Reduction-Fails-Prediction-Level-Hubness-i",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-02 06:52:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/57162c8f-1d2b-4340-86df-6193513d267a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/57162c8f-1d2b-4340-86df-6193513d267a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:33:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CLIP",
+    "modality gap",
+    "zero-shot classification",
+    "prediction-level hubness",
+    "modality alignment",
+    "contrastive learning"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "提出prediction-level hubness概念解释模态gap修正导致零样本准确率下降的机制",
+    "推导出gap-induced class-wise bias并验证其对prediction hub的可预测性",
+    "建立跨方法一致的预测集中度与准确率关联并设计score-space干预实验验证因果性"
+   ],
+   "benchmarks": [
+    "Caltech101",
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-1K",
+    "Oxford-IIIT Pet",
+    "DTD",
+    "EuroSAT",
+    "FGVC-Aircraft",
+    "Flowers102",
+    "Food-101"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "When-Tokenization-is-Secretly-Output-Supervision",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-02 06:49:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5ea9a8bb-63c6-4ab2-9612-c0885a5b23b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5ea9a8bb-63c6-4ab2-9612-c0885a5b23b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:33:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tokenization",
+    "output supervision",
+    "autoregressive models",
+    "numerical reasoning",
+    "mechanistic interpretability",
+    "minimal computation hypothesis",
+    "probing classifiers"
+   ],
+   "field": "语言模型可解释性与训练动力学",
+   "innovations": [
+    "提出分词作为输出监督的新视角，证明输出分词粒度决定学习任务结构",
+    "首次解耦输入/输出分词的2×2因子实验，隔离输出监督对性能与表征的主导作用",
+    "提出并验证最小计算假设，揭示梯度奖励与任务需求之间的张力"
+   ],
+   "benchmarks": [
+    "合成三位数加法（自定义）"
+   ]
+  }
+ }
 }

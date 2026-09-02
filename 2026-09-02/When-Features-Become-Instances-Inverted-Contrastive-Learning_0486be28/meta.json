@@ -4,5 +4,40 @@
  "title": "When-Features-Become-Instances-Inverted-Contrastive-Learning",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-02 06:52:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/694ef6f8-cbd5-4094-a259-51ba414d64bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/694ef6f8-cbd5-4094-a259-51ba414d64bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unsupervised Feature Selection",
+    "Contrastive Learning",
+    "Representation Learning",
+    "Feature Ranking",
+    "Embedding Norm",
+    "Laplacian Score"
+   ],
+   "field": "无监督特征选择",
+   "innovations": [
+    "将数据矩阵转置实现特征级对比学习，使特征成为学习实例",
+    "利用InfoNCE优化后投影空间嵌入范数作为特征显著性排序信号",
+    "结合结构化多视图掩码与显式洗牌负视图的特征一致性学习框架"
+   ],
+   "benchmarks": [
+    "ALLAML",
+    "ARCENE",
+    "BASEHOCK",
+    "COIL20",
+    "GISETTE",
+    "LUNG",
+    "NCI9",
+    "PCMAC",
+    "PROSTATE",
+    "RELATHE",
+    "TOX171",
+    "WARPPIE10P"
+   ]
+  }
+ }
 }
