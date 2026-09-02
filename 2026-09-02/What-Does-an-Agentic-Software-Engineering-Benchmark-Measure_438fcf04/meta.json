@@ -4,5 +4,34 @@
  "title": "What-Does-an-Agentic-Software-Engineering-Benchmark-Measure",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-02 17:35:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1b89f49f-5c04-4d29-a42b-9a7cd6238736.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1b89f49f-5c04-4d29-a42b-9a7cd6238736.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:40:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic software engineering",
+    "benchmark profiling",
+    "SNC profile",
+    "task demand",
+    "LLM coding agent",
+    "behavioral footprint",
+    "benchmark validity"
+   ],
+   "field": "智能体软件工程基准评估",
+   "innovations": [
+    "提出 SNC 剖面量化仓库级编码任务需求",
+    "揭示智能体行为足迹受问题陈述措辞调控",
+    "发现成功行为策略的模型家族特异性"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-Gym Lite",
+    "FEA-Bench",
+    "FeatBench",
+    "FeatureBench"
+   ]
+  }
+ }
 }

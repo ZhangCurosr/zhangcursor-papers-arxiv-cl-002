@@ -4,5 +4,10 @@
  "title": "When-Tokenization-is-Secretly-Output-Supervision",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-02 17:37:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5ea9a8bb-63c6-4ab2-9612-c0885a5b23b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5ea9a8bb-63c6-4ab2-9612-c0885a5b23b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:40:39",
+  "chunks": 1
+ }
 }

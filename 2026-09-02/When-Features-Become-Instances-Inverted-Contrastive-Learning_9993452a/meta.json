@@ -4,5 +4,10 @@
  "title": "When-Features-Become-Instances-Inverted-Contrastive-Learning",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-02 17:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b040961c-bf63-412a-bd70-744606103ce6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b040961c-bf63-412a-bd70-744606103ce6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:40:10",
+  "chunks": 1
+ }
 }
