@@ -4,5 +4,34 @@
  "title": "Trajectory-Soup-Pushing-the-Compute-Scaling-Frontier-of-LLM",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-30 18:50:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:56:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mid-training",
+    "model merging",
+    "trajectory diversity",
+    "weight averaging",
+    "compute scaling",
+    "checkpoint fusion"
+   ],
+   "field": "大语言模型训练效率与scaling",
+   "innovations": [
+    "提出Trajectory Soup双层合并框架，同时利用轨迹内筛选与轨迹间融合突破mid-training计算饱和",
+    "将轨迹数量作为独立计算分配轴，证明扩展并行轨迹可持续提升下游性能",
+    "给出局部偏差-方差理论分解，证明uniform averaging在两层均为方差最优"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "AGIEval",
+    "MMLU/MMLU-Pro",
+    "GSM8K/MATH",
+    "HumanEval/MBPP/LiveCodeBench",
+    "IFEval/BFCL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Zero-shot-Dependency-Parsing-with-Unsupervised-Cross-Lingual",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-30 18:49:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bbe4e1a3-e207-4c93-a0a5-38e0afb7454c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bbe4e1a3-e207-4c93-a0a5-38e0afb7454c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:00:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot dependency parsing",
+    "cross-lingual transfer",
+    "contrastive learning",
+    "unsupervised bootstrapping",
+    "multilingual PLM",
+    "tree probing",
+    "adapter"
+   ],
+   "field": "低资源跨语言自然语言处理",
+   "innovations": [
+    "句法感知子树旋转增强结合对比学习实现无监督跨语言句法表征自举",
+    "多层表征聚合与MLM辅助损失协同提升低资源零样本解析性能",
+    "参数无关树探测验证句法增强与下游性能的正相关性"
+   ],
+   "benchmarks": [
+    "Universal Dependencies v2.8 English EWT",
+    "28 low-resource UD treebanks for zero-shot evaluation"
+   ]
+  }
+ }
 }

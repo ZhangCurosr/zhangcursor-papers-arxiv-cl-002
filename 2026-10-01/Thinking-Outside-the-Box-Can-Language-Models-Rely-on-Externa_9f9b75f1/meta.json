@@ -4,5 +4,39 @@
  "title": "Thinking-Outside-the-Box-Can-Language-Models-Rely-on-Externa",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-10-01 08:26:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cee5d6ca-2646-4329-8add-a2e26d734318.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cee5d6ca-2646-4329-8add-a2e26d734318.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:01:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent reliability",
+    "selective reliance",
+    "workflow guidance",
+    "counterfactual SFT",
+    "outcome-based RL",
+    "Box²-Bench",
+    "multi-agent collaboration",
+    "memory-augmented reasoning"
+   ],
+   "field": "LLM Agent Reliability & Guidance Regulation",
+   "innovations": [
+    "提出Box²-Bench配对基准，分离工作流可靠性效应与任务性能",
+    "反事实SFT+结果导向RL两阶段训练策略提升对坏指导的鲁棒性并保留利用能力",
+    "验证选择性依赖跨情境泛化至多智能体协作与记忆增强推理"
+   ],
+   "benchmarks": [
+    "Box²-Bench",
+    "OpenR1-Math",
+    "DeepSWE",
+    "BrowseComp",
+    "AutomationBench",
+    "AIME 2026",
+    "WebShop",
+    "LongMemEval-V2-Small",
+    "Economy of Minds (EoM)"
+   ]
+  }
+ }
 }

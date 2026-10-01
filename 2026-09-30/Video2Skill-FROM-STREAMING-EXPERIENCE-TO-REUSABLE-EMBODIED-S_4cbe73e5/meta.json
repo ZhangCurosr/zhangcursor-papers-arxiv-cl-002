@@ -4,5 +4,30 @@
  "title": "Video2Skill-FROM-STREAMING-EXPERIENCE-TO-REUSABLE-EMBODIED-S",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-30 18:51:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ceb3f51-b59e-488b-8815-0a0e9de4fd51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ceb3f51-b59e-488b-8815-0a0e9de4fd51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:59:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Streaming Embodied Skill Discovery",
+    "Video2Skill",
+    "Vision-Language Models",
+    "Skill Library",
+    "Creation-Reuse Decision",
+    "Embodied Skill Discovery"
+   ],
+   "field": "具身智能技能发现",
+   "innovations": [
+    "形式化流式具身技能发现(SESD)任务并构建Video2Skill基准，联合评测事件定位、命名不变分组和创建-复用决策",
+    "揭示统一/因式分解两种范式的系统性偏差(过度合并vs碎片化)及规模增长的局限",
+    "提出CLARE反事实库状态重建等三种监督策略，发现新颖性识别是剩余核心瓶颈"
+   ],
+   "benchmarks": [
+    "ROBOINTER",
+    "HD-EPIC"
+   ]
+  }
+ }
 }

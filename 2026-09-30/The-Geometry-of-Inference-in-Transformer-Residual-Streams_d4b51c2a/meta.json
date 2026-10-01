@@ -4,5 +4,33 @@
  "title": "The-Geometry-of-Inference-in-Transformer-Residual-Streams",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 18:49:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55655ad9-8990-453f-8bfe-6836f8e516cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55655ad9-8990-453f-8bfe-6836f8e516cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:56:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer推理几何",
+    "残差流",
+    "端点银行",
+    "竞争者集合",
+    "高维对齐",
+    "方向分布拟合"
+   ],
+   "field": "大语言模型可解释性与表征几何",
+   "innovations": [
+    "提出端点银行探针框架量化推理过程中的几何特异性演化",
+    "证明高维共享轴模型中微小对齐改进可导致竞争者数量急剧下降",
+    "证明直线路径收敛下竞争者集合嵌套性，观测进入现象确立偏离基线证据"
+   ],
+   "benchmarks": [
+    "FineWeb sample-10BT",
+    "Gemma-2B/7B",
+    "Qwen2.5-1.5B/7B",
+    "Mistral-7B",
+    "Llama-3-8B"
+   ]
+  }
+ }
 }

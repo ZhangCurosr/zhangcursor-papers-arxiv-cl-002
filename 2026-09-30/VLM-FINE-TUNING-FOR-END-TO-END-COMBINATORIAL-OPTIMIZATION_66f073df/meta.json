@@ -4,5 +4,10 @@
  "title": "VLM-FINE-TUNING-FOR-END-TO-END-COMBINATORIAL-OPTIMIZATION",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-30 18:50:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/459bf691-74a9-4678-918d-6078ae66966b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/459bf691-74a9-4678-918d-6078ae66966b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:58:39",
+  "chunks": 1
+ }
 }

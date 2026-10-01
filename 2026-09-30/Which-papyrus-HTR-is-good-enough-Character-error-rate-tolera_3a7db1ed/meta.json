@@ -4,5 +4,34 @@
  "title": "Which-papyrus-HTR-is-good-enough-Character-error-rate-tolera",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-30 08:05:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1ef0c20c-e6f5-4b25-bb57-02e7ec88cf0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1ef0c20c-e6f5-4b25-bb57-02e7ec88cf0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:00:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手写文本识别",
+    "字符错误率",
+    "容错性",
+    "古文书学",
+    "希腊纸莎草纸",
+    "噪声鲁棒性",
+    "文本分类",
+    "信息检索"
+   ],
+   "field": "古籍数字化与手写文本识别",
+   "innovations": [
+    "建立了针对希腊纸莎草纸四个核心古文书学任务的HTR字符错误率容错基准",
+    "设计了精确可控的文本退化算法，分离字符错误与行丢失噪声",
+    "证明了对下游模型在带噪文本上进行重训练可大幅提升其高错误率下的实用性"
+   ],
+   "benchmarks": [
+    "DDbDP",
+    "DCLP",
+    "Grammateus",
+    "HGV"
+   ]
+  }
+ }
 }

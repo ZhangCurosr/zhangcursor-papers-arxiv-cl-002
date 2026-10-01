@@ -4,5 +4,10 @@
  "title": "Unbiased-Top-k-Estimation-for-On-Policy-Distillation",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-29 19:06:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/44242f80-2c6c-47fd-ac2b-39673a670f6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/44242f80-2c6c-47fd-ac2b-39673a670f6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:55:15",
+  "chunks": 1
+ }
 }

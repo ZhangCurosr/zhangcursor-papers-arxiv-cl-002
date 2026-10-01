@@ -4,5 +4,37 @@
  "title": "WHAT-MAKES-RECURRENCE-EFFECTIVE-IN-LOOPED-LANGUAGE-MODELS",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-30 18:51:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/37e27295-8152-4dac-8ea7-a802580bacca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/37e27295-8152-4dac-8ea7-a802580bacca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:59:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Looped Language Models",
+    "Recurrent Scaling",
+    "Test-time Computation",
+    "History-state Injection",
+    "Timestep Conditioning",
+    "Depth Extrapolation"
+   ],
+   "field": "循环语言模型架构与设计",
+   "innovations": [
+    "系统表征LoopLM在训练深度外的测试时扩展行为并揭示任务特异性",
+    "提出基于相对状态差的历史状态注入机制",
+    "联合历史状态注入与时序条件的轻量级通道级参数化框架"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "SciQ",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "ProofWriter",
+    "CLUTRR",
+    "BBH",
+    "HellaSwag",
+    "WinoGrande"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "WHEN-MODELS-DON-T-MANIPULATE-MANIFOLDS-THE-GEOMETRY-OF-A-COM",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-30 18:50:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6eb9c474-b21e-4df9-bc44-7b8d492a6058.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6eb9c474-b21e-4df9-bc44-7b8d492a6058.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:59:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "number comparison",
+    "linear representation",
+    "manifold hypothesis",
+    "causal geometry",
+    "Qwen2.5-7B"
+   ],
+   "field": "神经可解释性与表示几何",
+   "innovations": [
+    "证明比较任务中模型使用线性方向而非流形曲率进行因果计算",
+    "提出基于残差加法混合与 MLP 局部-全局比较的两阶段算法",
+    "将线性混合比较策略扩展至多数字序列的 flag 合并机制"
+   ],
+   "benchmarks": [
+    "两位数对最大值比较",
+    "三位数三元组最大值比较"
+   ]
+  }
+ }
 }

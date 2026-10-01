@@ -4,5 +4,32 @@
  "title": "Transformers-Stop-Thinking-Too-Early-and-a-Tiny-LoRA-Fixes-I",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-30 08:05:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1882d73d-a844-417b-a1cc-c6b36e2b4543.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1882d73d-a844-417b-a1cc-c6b36e2b4543.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:57:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reference chain",
+    "LoRA",
+    "mechanistic interpretability",
+    "causal tracing",
+    "looped transformer",
+    "multi-hop QA",
+    "layer intervention"
+   ],
+   "field": "大模型可解释性与高效适配",
+   "innovations": [
+    "揭示预训练Transformer默认仅用2.2行深度跟随引用链",
+    "rank-8 LoRA以<0.01%参数将链长扩展至160行",
+    "提出冻结模型cutoff layer预测干预位置"
+   ],
+   "benchmarks": [
+    "MuSiQue",
+    "synthetic reference chains",
+    "fictional facts multi-hop"
+   ]
+  }
+ }
 }

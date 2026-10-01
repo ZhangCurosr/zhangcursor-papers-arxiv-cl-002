@@ -4,5 +4,10 @@
  "title": "Zero-shot-Dependency-Parsing-with-Unsupervised-Cross-Lingual",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-30 07:59:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bbe4e1a3-e207-4c93-a0a5-38e0afb7454c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bbe4e1a3-e207-4c93-a0a5-38e0afb7454c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:01:25",
+  "chunks": 1
+ }
 }

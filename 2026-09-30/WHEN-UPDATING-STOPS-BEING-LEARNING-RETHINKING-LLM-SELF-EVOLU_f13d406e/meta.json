@@ -4,5 +4,39 @@
  "title": "WHEN-UPDATING-STOPS-BEING-LEARNING-RETHINKING-LLM-SELF-EVOLU",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-09-30 18:51:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/041af470-7295-4800-8950-209604dbcf27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/041af470-7295-4800-8950-209604dbcf27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:59:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolution",
+    "LLM自进化",
+    "信息增益",
+    "模型退化",
+    "GRPO",
+    "数据筛选",
+    "早期停止"
+   ],
+   "field": "大语言模型自我演化与训练稳定性",
+   "innovations": [
+    "提出可学习信息增益Ct作为系统级诊断信号，证明其在精确拟合下分解为KL散度与熵变",
+    "构建ATRI框架，通过轮次内信息增益重加权与轮次间三阶段停止规则缓解自进化退化",
+    "扩展方向性增益Cd实现闭环饱和后的高效外部样本选择"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AMC",
+    "Minerva",
+    "Olympiad",
+    "AIME-2024",
+    "AIME-2025",
+    "MMLU-Pro",
+    "SuperGPQA",
+    "BBEH"
+   ]
+  }
+ }
 }

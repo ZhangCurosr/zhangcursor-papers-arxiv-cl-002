@@ -4,5 +4,31 @@
  "title": "UNDERSTANDING-ON-POLICY-DISTILLATION-A-MECHANISTIC-INTERPRET",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-29 19:06:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f8a38904-3237-482b-8711-59c31ba824e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f8a38904-3237-482b-8711-59c31ba824e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:55:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "mechanistic interpretability",
+    "sparse crosscoder",
+    "feature reweighting",
+    "SFT warm-up",
+    "decision token"
+   ],
+   "field": "大语言模型后训练与可解释性",
+   "innovations": [
+    "提出swap readout方法追踪训练前后特征使用变化",
+    "揭示OPD本质是重加权而非特征创建",
+    "阐明SFT预热通过特征重加权而非引入新特征提升OPD效果"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "AMC 2023"
+   ]
+  }
+ }
 }

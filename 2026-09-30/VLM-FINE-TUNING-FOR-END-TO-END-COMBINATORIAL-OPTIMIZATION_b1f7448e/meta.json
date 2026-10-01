@@ -4,5 +4,35 @@
  "title": "VLM-FINE-TUNING-FOR-END-TO-END-COMBINATORIAL-OPTIMIZATION",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-30 08:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/459bf691-74a9-4678-918d-6078ae66966b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/459bf691-74a9-4678-918d-6078ae66966b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:58:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Model",
+    "Combinatorial Optimization",
+    "End-to-End Solver",
+    "Reinforcement Learning",
+    "Supervised Fine-tuning",
+    "Multi-modal Learning"
+   ],
+   "field": "组合优化与多模态学习",
+   "innovations": [
+    "多模态表示框架：文本+输入衍生视觉表示的通用CO求解",
+    "验证器引导的RL：可行性+最优性双组件奖励的GRPO策略",
+    "共享VLM求解器：单一模型跨异构CO问题的统一求解"
+   ],
+   "benchmarks": [
+    "TSP",
+    "OP",
+    "CVRP",
+    "MIS",
+    "MVC",
+    "PFSP",
+    "JSSP"
+   ]
+  }
+ }
 }

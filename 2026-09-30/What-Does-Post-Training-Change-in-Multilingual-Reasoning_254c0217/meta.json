@@ -4,5 +4,33 @@
  "title": "What-Does-Post-Training-Change-in-Multilingual-Reasoning",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-30 08:02:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5eb5a74a-cf91-4db0-a58a-850c639a00d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5eb5a74a-cf91-4db0-a58a-850c639a00d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:00:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言推理",
+    "强化学习",
+    "监督微调",
+    "语言遵从性",
+    "交付效率",
+    "正确性门控奖励",
+    "Chain-of-Thought"
+   ],
+   "field": "多语言大语言模型推理",
+   "innovations": [
+    "提出 J=C∧L∧T 联合交付评价指标，同时追踪正确性、语言遵从与终止",
+    "发现 SFT 后目标语言推理易产生非终止循环的瓶颈转移现象",
+    "提出正确性门控奖励 R_gate=C_tr×(0.7+0.3·l_tr) 确保语言奖励不被错误答案骗取"
+   ],
+   "benchmarks": [
+    "AIME-2026",
+    "AMC-2023",
+    "OpenR1",
+    "DAPO-Math-17K"
+   ]
+  }
+ }
 }

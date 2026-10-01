@@ -4,5 +4,36 @@
  "title": "Trajectory-Soup-Pushing-the-Compute-Scaling-Frontier-of-LLM",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-30 08:05:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dccf86b5-2cf5-4e8f-b351-0f3cce4e8d6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dccf86b5-2cf5-4e8f-b351-0f3cce4e8d6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:57:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mid-training",
+    "model merging",
+    "trajectory diversity",
+    "compute scaling",
+    "weight averaging",
+    "LLM"
+   ],
+   "field": "大语言模型中期训练与计算分配",
+   "innovations": [
+    "将轨迹数量作为独立的计算分配轴，突破单条轨迹的串行计算缩放饱和墙",
+    "提出双层融合框架（intra + inter trajectory averaging）并给出偏差-方差理论分解",
+    "证明均匀权重在方差意义上最优，并揭示方向多样性可预测插值增益"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "LiveCodeBench",
+    "C-Eval",
+    "IFEval",
+    "BFCL v4"
+   ]
+  }
+ }
 }

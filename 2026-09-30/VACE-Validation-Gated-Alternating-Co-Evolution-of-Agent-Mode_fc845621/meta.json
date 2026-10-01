@@ -4,5 +4,30 @@
  "title": "VACE-Validation-Gated-Alternating-Co-Evolution-of-Agent-Mode",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-30 08:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f856e721-8954-40b1-9899-ce55445ca2da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f856e721-8954-40b1-9899-ce55445ca2da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:58:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic reinforcement learning",
+    "harness optimization",
+    "co-evolution",
+    "validation gating",
+    "LLM agents",
+    "workflow automation"
+   ],
+   "field": "Agent 强化学习与自我演化",
+   "innovations": [
+    "提出 VACE 框架实现模型权重与 Harness 的交替协同优化",
+    "引入 checkpoint 级验证门控，严格改进才采纳 Harness 修订",
+    "系统性对比 joint adaptation 与单一组件优化，揭示 17/44 提案导致验证退化"
+   ],
+   "benchmarks": [
+    "OfficeQA",
+    "Automation-Bench"
+   ]
+  }
+ }
 }

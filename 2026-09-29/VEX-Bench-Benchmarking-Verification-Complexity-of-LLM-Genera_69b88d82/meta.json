@@ -4,5 +4,32 @@
  "title": "VEX-Bench-Benchmarking-Verification-Complexity-of-LLM-Genera",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-29 07:56:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a828171b-57a3-4208-b23e-198ea20009e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a828171b-57a3-4208-b23e-198ea20009e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:56:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "misinformation",
+    "LLM safety",
+    "fact-checking",
+    "verification complexity",
+    "benchmark",
+    "jailbreak evaluation",
+    "content analysis"
+   ],
+   "field": "LLM安全与虚假信息评估",
+   "innovations": [
+    "提出VEX-Bench首个验证复杂度统一基准，结合elicitation yield与五维verification complexity",
+    "形式化五维验证复杂度框架并采用ordinal Krippendorff's α验证judge可靠性",
+    "揭示生成-验证成本不对称性（最高169倍），证明单一success指标低估高风险方法"
+   ],
+   "benchmarks": [
+    "VEX-Bench",
+    "JailNewsBench",
+    "StrongREJECT"
+   ]
+  }
+ }
 }
