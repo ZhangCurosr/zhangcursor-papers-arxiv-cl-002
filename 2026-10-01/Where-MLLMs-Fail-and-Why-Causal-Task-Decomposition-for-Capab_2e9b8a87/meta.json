@@ -4,5 +4,30 @@
  "title": "Where-MLLMs-Fail-and-Why-Causal-Task-Decomposition-for-Capab",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-01 08:24:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e63761eb-30fe-438a-9f96-5e468fcf15bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e63761eb-30fe-438a-9f96-5e468fcf15bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:01:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "因果诊断",
+    "任务分解",
+    "能力评估",
+    "结构化因果模型",
+    "级联误差",
+    "必要性充分性"
+   ],
+   "field": "多模态大模型评测与诊断",
+   "innovations": [
+    "提出三元干预因果分解框架，区分能力内在缺陷与级联误差",
+    "定义N-Score和S-Score量化前置因果贡献，提供PN/PS下界",
+    "构建CADET基准揭示前沿MLLM系统性失败模式"
+   ],
+   "benchmarks": [
+    "CADET"
+   ]
+  }
+ }
 }

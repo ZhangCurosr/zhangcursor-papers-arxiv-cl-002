@@ -4,5 +4,32 @@
  "title": "Training-LLM-Judges-from-Language-Feedback-via-Position-Sele",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-01 08:20:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0213cf96-e2cb-4142-87da-68f7887910b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0213cf96-e2cb-4142-87da-68f7887910b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:01:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Judge",
+    "Self-Distillation",
+    "Entropy Shift",
+    "Position Masking",
+    "Reward Model",
+    "Language Feedback",
+    "Subjective Evaluation"
+   ],
+   "field": "大语言模型对齐与评估",
+   "innovations": [
+    "定义 per-position entropy shift 刻画自蒸馏信号异质性，识别 context sharpening/spreading 两种语义模式",
+    "提出基于熵移尾部分位的位置掩码策略（SD+mask），保留低熵移位置促进准则多样性泛化",
+    "实证表明主观任务上 SD+mask 较 outcome-supervised RL 提升 2–9 pp 且 OOD 泛化更优"
+   ],
+   "benchmarks": [
+    "RM-BENCH",
+    "REWARDBENCH V2",
+    "Arena-Hard-v2"
+   ]
+  }
+ }
 }

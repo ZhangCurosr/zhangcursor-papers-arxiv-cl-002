@@ -4,5 +4,31 @@
  "title": "TRIADIC-LINEAR-ATTENTION-THREE-DIMENSIONAL-RECURRENT-STATES",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-30 08:06:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/775064a1-07eb-4111-bdd5-db773251d97a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/775064a1-07eb-4111-bdd5-db773251d97a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:01:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linear attention",
+    "recurrent neural networks",
+    "long-context modeling",
+    "tensor states",
+    "state-space models"
+   ],
+   "field": "长上下文语言建模",
+   "innovations": [
+    "将线性注意力状态从矩阵扩展为三阶张量，通过三元外积写入和双query收缩读取实现参数高效的状态扩张",
+    "提出兼容data-dependent forgetting、delta rule和chunkwise-parallel training的triadic linear attention框架",
+    "证明triadic状态扩张在长上下文和recall任务上系统性优于增大head/value维度的替代方案"
+   ],
+   "benchmarks": [
+    "PG19",
+    "Wikitext-2",
+    "RULER NIAH",
+    "Arora et al. 2024 Recall Suite"
+   ]
+  }
+ }
 }

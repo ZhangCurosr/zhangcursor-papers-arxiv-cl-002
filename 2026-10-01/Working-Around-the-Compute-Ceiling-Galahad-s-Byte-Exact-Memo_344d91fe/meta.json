@@ -4,5 +4,10 @@
  "title": "Working-Around-the-Compute-Ceiling-Galahad-s-Byte-Exact-Memo",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-01 08:19:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/fd050eaa-a812-4f23-a2a1-50fc760f4336.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/fd050eaa-a812-4f23-a2a1-50fc760f4336.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:02:18",
+  "chunks": 1
+ }
 }

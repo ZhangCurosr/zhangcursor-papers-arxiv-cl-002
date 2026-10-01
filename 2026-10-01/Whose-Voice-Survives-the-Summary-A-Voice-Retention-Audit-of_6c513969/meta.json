@@ -4,5 +4,29 @@
  "title": "Whose-Voice-Survives-the-Summary-A-Voice-Retention-Audit-of",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-01 08:25:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/376f7a4c-c3b8-496e-a0b6-2d19440ace10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/376f7a4c-c3b8-496e-a0b6-2d19440ace10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:02:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "representational harm",
+    "summarization bias",
+    "employee voice",
+    "LLM fairness",
+    "people analytics",
+    "voice retention ratio"
+   ],
+   "field": "LLM summarization fairness & organizational AI",
+   "innovations": [
+    "提出Voice Retention / Representation Ratio指标以量化摘要中的代表性偏见",
+    "在真实组织语料中发现LLM摘要按流行度而非情感过滤, 低频单例被丢弃率达86%",
+    "提出并评估prompt级缓解的五项设计原则与voice-retention card透明度报告"
+   ],
+   "benchmarks": [
+    "internal bilingual employee pulse survey corpus (English/German, 2,586 responses, 4,673 coded units)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "When-the-Right-Answer-Is-Missing-An-Arithmetic-Dependent-Rej",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-01 08:25:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7ca2f820-28cd-41d0-bb39-a4298644d054.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7ca2f820-28cd-41d0-bb39-a4298644d054.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:01:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "类型化决策模型",
+    "拒绝瓶颈",
+    "阈值校准",
+    "Jev",
+    "算术推理",
+    "决策界面"
+   ],
+   "field": "AI 决策可靠性与拒识",
+   "innovations": [
+    "发现 Jev 在算术问题上的算术依赖拒绝瓶颈（99% vs 7%）",
+    "通过 Menu Choice/T/F Choice/Boolean 三类对照实验隔离接口类型与计算的贡献",
+    "提出离线阈值校准方法将拒绝准确率从7%提升至79%且无需重训练"
+   ],
+   "benchmarks": [
+    "Arithmetic (a+b−c)",
+    "Purchase Totals (qp+s)",
+    "Lookup",
+    "Inventory",
+    "Time Calculation",
+    "Capacity Rounding"
+   ]
+  }
+ }
 }

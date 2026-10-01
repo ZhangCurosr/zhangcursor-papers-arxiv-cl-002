@@ -4,5 +4,32 @@
  "title": "YOU-RE-HIRED-STRATEGIC-MODEL-SELECTION-FORLLM-COLLABORATION",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-10-01 08:20:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4105ea98-a65d-4777-b187-b187d4875f67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4105ea98-a65d-4777-b187-b187d4875f67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:02:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model selection",
+    "multi-LLM collaboration",
+    "diversity-aware selection",
+    "item response theory",
+    "agentic recruitment"
+   ],
+   "field": "多模型协作系统",
+   "innovations": [
+    "提出9种模型选择算法的分类学框架，涵盖从陈述多样性到LLM招聘者的完整谱系",
+    "揭示选择算法与协作机制的耦合效应，证明不存在通用最优选择策略",
+    "验证能力感知选择在抗恶意模型和OOD泛化上的鲁棒性"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "TruthfulQA",
+    "MBPP",
+    "CoCoNot",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

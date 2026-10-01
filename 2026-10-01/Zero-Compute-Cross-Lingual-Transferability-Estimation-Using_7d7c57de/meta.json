@@ -4,5 +4,28 @@
  "title": "Zero-Compute-Cross-Lingual-Transferability-Estimation-Using",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-01 08:24:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/08c74280-98a4-4178-89d2-68ba5670a936.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/08c74280-98a4-4178-89d2-68ba5670a936.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:02:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言迁移",
+    "类型学特征",
+    "零计算预测",
+    "多语言预训练",
+    "偏差分解"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "仅用387个类型学特征以随机森林在LOLO下达到ρ=0.705重建ATLAS迁移矩阵，无需任何LLM训练",
+    "将BTS分解为类型学项与资源/书写偏差项，揭示英语优势受偏差驱动",
+    "证明类型学信号高度冗余，单特征即可达ρ=0.622"
+   ],
+   "benchmarks": [
+    "ATLAS-24 (Bilingual Transfer Score matrix, 24 languages, 552 directed pairs)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-Geometry-of-Inference-in-Transformer-Residual-Streams",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 08:08:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55655ad9-8990-453f-8bfe-6836f8e516cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55655ad9-8990-453f-8bfe-6836f8e516cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:01:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer 可解释性",
+    "残差流几何",
+    "推理动力学",
+    "端点竞争",
+    "方向分布拟合"
+   ],
+   "field": "大语言模型可解释性与表示几何",
+   "innovations": [
+    "提出基于固定端点库的几何特异性探针，刻画中间状态对自身终点的选择性演化",
+    "证明直线路径产生嵌套竞争者集，观测到的成员再进入构成对单调直线收敛的违反",
+    "用投影正态/vMF 混合拟合端点方向结构，预测未见轨迹上的竞争者比例曲线"
+   ],
+   "benchmarks": [
+    "FineWeb sample-10BT",
+    "Gemma-2B/7B",
+    "Qwen2.5-1.5B/7B",
+    "Mistral-7B",
+    "Llama-3-8B"
+   ]
+  }
+ }
 }
