@@ -4,5 +4,36 @@
  "title": "X-MOD-PRACTICAL-SCALING-LAWS-FOR-SPARSE-DEPTH-ROUTING-BEYOND",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-29 19:07:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4738093b-0993-46f1-9958-af981fddba62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4738093b-0993-46f1-9958-af981fddba62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:27:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse-depth routing",
+    "mixture-of-depths",
+    "scaling laws",
+    "conditional computation",
+    "transformer architecture",
+    "Mixture-of-Experts",
+    "token sparsity"
+   ],
+   "field": "大语言模型高效架构与缩放定律",
+   "innovations": [
+    "提出X-MoD架构，将token稀疏度K与锚点步长A解耦，突破MoD总/激活参数比<2的限制",
+    "建立基于FLOP匹配稠密基线残差的稀疏深度缩放定律，三项分解解释容量增益、上下文修正与锚点交互",
+    "验证X-MoD在936M规模下较MoE基线实现1.70×训练吞吐和1.42×推理吞吐提升"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "HellaSwag",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "PIQA",
+    "LAMBADA",
+    "BoolQ"
+   ]
+  }
+ }
 }

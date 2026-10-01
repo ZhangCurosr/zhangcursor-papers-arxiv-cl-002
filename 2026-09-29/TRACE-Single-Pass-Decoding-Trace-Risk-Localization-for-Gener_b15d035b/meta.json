@@ -4,5 +4,32 @@
  "title": "TRACE-Single-Pass-Decoding-Trace-Risk-Localization-for-Gener",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-29 07:58:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0e45d990-18ed-41cf-b86d-a046327bcd7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0e45d990-18ed-41cf-b86d-a046327bcd7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:21:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generation calibration",
+    "confidence estimation",
+    "large language models",
+    "decoding trace",
+    "uncertainty quantification",
+    "single-pass inference"
+   ],
+   "field": "生成模型校准与不确定性量化",
+   "innovations": [
+    "提出TRACE单遍解码轨迹风险定位方法，通过位置衰减熵、局部窗口熵峰值与长度归一化surprisal聚合答案级风险",
+    "设计TRACE+轻量级校准变体，用逻辑回归将轨迹特征映射为校准概率，无需额外采样或语义验证",
+    "在四个生成任务与七个LLM上系统评估，证明TRACE+在Brier与AUROC上优于19个基线且跨模型稳健"
+   ],
+   "benchmarks": [
+    "MLQA",
+    "SVAMP",
+    "TriviaQA",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "WHEN-DO-MODEL-INTERNALS-HELP-EXPLOR-ING-THE-ROLE-OF-REPRESEN",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-29 19:06:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/170dba37-73fa-4f58-9497-ed7d2813958f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/170dba37-73fa-4f58-9497-ed7d2813958f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:24:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表征工程",
+    "LLM安全对齐",
+    "行为对齐",
+    "激活操纵",
+    "表征探针",
+    "安全监控",
+    "DPO"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "首次系统比较表征工程与行为对齐在统一框架下的安全控制性能",
+    "发现表征探针在低边际计算成本下的有效监控能力",
+    "提出并验证探针引导的干预策略可恢复良性微调后的对齐退化"
+   ],
+   "benchmarks": [
+    "StrongREJECT",
+    "PKU-SafeRLHF",
+    "HarmBench",
+    "XSTest",
+    "MMLU",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

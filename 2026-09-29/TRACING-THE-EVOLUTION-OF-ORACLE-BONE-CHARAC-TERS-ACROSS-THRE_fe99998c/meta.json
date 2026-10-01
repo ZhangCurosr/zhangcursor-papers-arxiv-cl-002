@@ -4,5 +4,32 @@
  "title": "TRACING-THE-EVOLUTION-OF-ORACLE-BONE-CHARAC-TERS-ACROSS-THRE",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 08:01:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3df25a93-93db-4bab-8637-5d20c6666b9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3df25a93-93db-4bab-8637-5d20c6666b9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:21:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "甲骨文释读",
+    "Neural ODE",
+    "跨时代字符演化",
+    "流形学习",
+    "双向验证",
+    "计算古文字学"
+   ],
+   "field": "计算古文字学/跨时代字符演化建模",
+   "innovations": [
+    "提出MSEF将汉字三千年演化建模为流形空间连续流动，通过Neural ODE学习跨时代转换动力学",
+    "设计CBED级联双向演化释读算法，正向检索结合逆向一致性逐步剪枝验证候选",
+    "提供先探索性诊断分析生成/检索范式的失败模式，为连续流形动力学设计提供动机"
+   ],
+   "benchmarks": [
+    "HUST-OBS",
+    "EVOBC",
+    "PictOBI-20k",
+    "FGCCES"
+   ]
+  }
+ }
 }

@@ -4,5 +4,25 @@
  "title": "When-Confidence-Rises-Too-Early-Detecting-Shortcut-Reasoning",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-29 19:07:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3831f16c-0dd2-4e01-8ffc-fff4602f3927.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3831f16c-0dd2-4e01-8ffc-fff4602f3927.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:25:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "关键词1",
+    "关键词2"
+   ],
+   "field": "细分研究方向",
+   "innovations": [
+    "创新点一句话",
+    "..."
+   ],
+   "benchmarks": [
+    "评测基准名",
+    "..."
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "WHEN-WORDS-SPEAK-LOUDER-THAN-IMAGES-TO-WARDS-UNDERSTANDING-L",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-29 19:09:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c2cb2811-4ef1-47d0-a5ce-6bffd07441c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c2cb2811-4ef1-47d0-a5ce-6bffd07441c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:24:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "语言偏见",
+    "多模态理解",
+    "词补全任务",
+    "诊断框架",
+    "语言先验",
+    "跨模态覆盖"
+   ],
+   "field": "多模态大模型可解释性与偏差分析",
+   "innovations": [
+    "提出四阶段诊断框架追踪语言偏见传播路径",
+    "揭示感知-决策间隙中语言先验独立于视觉覆盖的覆盖效应"
+   ],
+   "benchmarks": [
+    "Ma et al. (2023) Word Completion Dataset"
+   ]
+  }
+ }
 }

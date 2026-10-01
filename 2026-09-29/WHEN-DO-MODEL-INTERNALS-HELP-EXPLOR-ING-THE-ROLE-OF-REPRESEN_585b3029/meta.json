@@ -4,5 +4,34 @@
  "title": "WHEN-DO-MODEL-INTERNALS-HELP-EXPLOR-ING-THE-ROLE-OF-REPRESEN",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-29 07:57:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/30d0b4de-b79c-478c-a30f-5031345d4585.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/30d0b4de-b79c-478c-a30f-5031345d4585.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:23:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "representation engineering",
+    "LLM safety",
+    "DPO",
+    "activation steering",
+    "safety monitoring",
+    "probe",
+    "benign fine-tuning"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "首次在统一数据与协议下并列对比DPO与三种表征引导在安全控制上的多维表现",
+    "揭示表征探针能以极低边际成本实现接近文本监控器的流式安全检测",
+    "证明探针触发的阻断/再生干预可显著恢复DPO经良性微调后丢失的安全性"
+   ],
+   "benchmarks": [
+    "StrongREJECT",
+    "PKU-SafeRLHF",
+    "Alpaca-Cleaned",
+    "HarmBench",
+    "XSTest"
+   ]
+  }
+ }
 }

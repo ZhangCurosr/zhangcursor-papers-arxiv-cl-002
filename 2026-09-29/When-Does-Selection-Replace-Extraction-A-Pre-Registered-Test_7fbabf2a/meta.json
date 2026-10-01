@@ -4,5 +4,32 @@
  "title": "When-Does-Selection-Replace-Extraction-A-Pre-Registered-Test",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-29 19:07:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2d89915c-d846-43cc-b20c-9775fcbe7c5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2d89915c-d846-43cc-b20c-9775fcbe7c5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:26:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conversational memory",
+    "selection vs extraction",
+    "pre-registered test",
+    "Jev",
+    "non-inferiority",
+    "budget dependence",
+    "typed decision model",
+    "LoCoMo"
+   ],
+   "field": "长程对话记忆系统评估",
+   "innovations": [
+    "首次预注册非劣效性测试证明严格预算下原始轮次选择不劣效于LLM提取记忆",
+    "揭示重排序收益随上下文预算增大而显著减小的规律",
+    "验证类型化决策模型作为高效选择器匹配LLM重排序器性能"
+   ],
+   "benchmarks": [
+    "LoCoMo",
+    "LongMemEval"
+   ]
+  }
+ }
 }

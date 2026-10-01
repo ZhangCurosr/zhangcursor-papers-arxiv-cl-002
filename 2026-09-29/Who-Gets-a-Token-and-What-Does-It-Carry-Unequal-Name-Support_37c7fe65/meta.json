@@ -4,5 +4,31 @@
  "title": "Who-Gets-a-Token-and-What-Does-It-Carry-Unequal-Name-Support",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-09-29 19:07:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/96200bd0-16ab-405b-84c0-71bd1cd3b444.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/96200bd0-16ab-405b-84c0-71bd1cd3b444.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:27:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "name-based fairness",
+    "tokenization bias",
+    "LLM interpretability",
+    "concept accessibility",
+    "hidden-state intervention",
+    "lexical comparability",
+    "demographic bias"
+   ],
+   "field": "大语言模型公平性与可解释性",
+   "innovations": [
+    "提出NAMETRACE框架，从词法输入到任务相关内部表征的系统性测量",
+    "发现cross-name transfer可解释72.9%-96.6%的支持差异gap",
+    "通过隐藏状态干预验证任务方向的下游决策杠杆"
+   ],
+   "benchmarks": [
+    "Florida voter registration first-name dataset (497,583 names)",
+    "Fellowship/hiring/clinical assessment/lending task axes"
+   ]
+  }
+ }
 }

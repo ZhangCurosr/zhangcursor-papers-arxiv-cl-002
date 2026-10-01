@@ -4,5 +4,32 @@
  "title": "Which-the-Eye-Fears-WRITING-WITH-READ-BLINDNESS-EXPLAINS-MAS",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-29 08:00:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/405a2800-6962-4336-94bf-7611c8cca151.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/405a2800-6962-4336-94bf-7611c8cca151.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:26:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Massive Activations",
+    "Read-Blindness",
+    "Mechanistic Interpretability",
+    "Transformer",
+    "Training Dynamics",
+    "Hessian Curvature",
+    "AdamW"
+   ],
+   "field": "神经网络的机制可解释性",
+   "innovations": [
+    "提出读写盲点不对称性机制解释MAs跨层持久性",
+    "发现读盲点在训练中早于FFN放大器特化出现",
+    "通过Hessian曲率与AdamW压力证明训练主动维持该不对称性"
+   ],
+   "benchmarks": [
+    "RegMix 5B tokens",
+    "Llama 135M/1.28B/2.56B",
+    "Qwen3 1.7B"
+   ]
+  }
+ }
 }

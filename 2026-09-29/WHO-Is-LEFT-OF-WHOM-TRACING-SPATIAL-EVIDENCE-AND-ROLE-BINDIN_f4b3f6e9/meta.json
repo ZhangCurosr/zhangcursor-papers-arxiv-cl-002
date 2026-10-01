@@ -4,5 +4,33 @@
  "title": "WHO-Is-LEFT-OF-WHOM-TRACING-SPATIAL-EVIDENCE-AND-ROLE-BINDIN",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-29 19:06:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ad9ae71-fdfa-4ac1-9eb3-6ec1d226064b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ad9ae71-fdfa-4ac1-9eb3-6ec1d226064b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:24:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial reasoning",
+    "mechanistic interpretability",
+    "vision-language models",
+    "activation patching",
+    "role binding",
+    "location ID",
+    "relative position"
+   ],
+   "field": "视觉语言模型可解释性",
+   "innovations": [
+    "揭示源端位置信息到查询端角色绑定的分阶段因果通路",
+    "提取目标/参考角色方向并证明其因果作用与零样本迁移能力",
+    "配对一致性测试框架诊断空间推理不一致性"
+   ],
+   "benchmarks": [
+    "Synthetic 2-object/3-object",
+    "What'sUp-A/B",
+    "COCO-Spatial",
+    "GQA-Spatial"
+   ]
+  }
+ }
 }

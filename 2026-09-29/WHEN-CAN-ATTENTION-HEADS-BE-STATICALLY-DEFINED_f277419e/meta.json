@@ -4,5 +4,34 @@
  "title": "WHEN-CAN-ATTENTION-HEADS-BE-STATICALLY-DEFINED",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 19:06:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:23:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "attention freezing",
+    "efficient LLM pretraining",
+    "fixed attention patterns",
+    "head selection",
+    "fused kernel",
+    "sparse attention"
+   ],
+   "field": "高效大语言模型训练",
+   "innovations": [
+    "提出SAF方法，通过注意力方差选择低变异头并用固定位置模式替换其动态注意力权重",
+    "设计O(T)紧凑表示(alpha+rho)和融合kernel，在统一forward中联合执行普通注意力与固定模式头",
+    "系统比较模式/选择器/比例/时机，确立方差选择+post-softmax均值+中期一次性替换为标准配方"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "SST-2",
+    "BoolQ",
+    "QuALITY",
+    "MQAR",
+    "Qwen3-4B zero-shot"
+   ]
+  }
+ }
 }

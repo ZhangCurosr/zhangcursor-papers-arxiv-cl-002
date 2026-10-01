@@ -4,5 +4,10 @@
  "title": "WebPageBench-Event-Level-Verification-and-Controlled-UI-Vari",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-29 08:00:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/80cd30e5-3e45-40dc-b1ef-3f0a82699b20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/80cd30e5-3e45-40dc-b1ef-3f0a82699b20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:25:19",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TRACING-THE-EVOLUTION-OF-ORACLE-BONE-CHARAC-TERS-ACROSS-THRE",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 19:06:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3df25a93-93db-4bab-8637-5d20c6666b9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3df25a93-93db-4bab-8637-5d20c6666b9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:21:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Oracle Bone Inscription",
+    "Neural ODE",
+    "Manifold Learning",
+    "Cross-era Decipherment",
+    "Character Evolution",
+    "Bidirectional Verification",
+    "Paleography"
+   ],
+   "field": "计算古文字学与低资源跨时代字符识别",
+   "innovations": [
+    "MSEF：将汉字三千年演变建模为 Neural ODE 驱动的连续流形动力学",
+    "CBED：级联前向检索+后向逆向流验证的双向释读算法",
+    "Survival Network：预测字符跨时代存续概率的门控模块"
+   ],
+   "benchmarks": [
+    "HUST-OBS",
+    "EVOBC",
+    "PictOBI-20k",
+    "FGCCES"
+   ]
+  }
+ }
 }

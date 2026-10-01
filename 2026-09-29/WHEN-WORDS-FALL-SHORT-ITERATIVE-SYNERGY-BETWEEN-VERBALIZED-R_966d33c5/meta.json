@@ -4,5 +4,37 @@
  "title": "WHEN-WORDS-FALL-SHORT-ITERATIVE-SYNERGY-BETWEEN-VERBALIZED-R",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-29 07:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1a6d8699-f81f-42b4-b1f4-15c294114756.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1a6d8699-f81f-42b4-b1f4-15c294114756.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:23:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "confidence estimation",
+    "large language models",
+    "iterative training",
+    "hidden state probing",
+    "verbalized confidence",
+    "reinforcement learning",
+    "calibration"
+   ],
+   "field": "大语言模型可信度与校准",
+   "innovations": [
+    "揭示估计器过拟合导致prior比较偏差，经校正后独立估计器大幅超越言语化方法",
+    "提出IPoET交替优化框架使隐藏状态估计器与策略生成协同适配",
+    "将负Brier估计器奖励无缝接入GRPO策略训练无需显式置信度生成"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "Big-Math",
+    "MATH-500",
+    "GSM8K",
+    "TriviaQA",
+    "SimpleQA",
+    "CommonsenseQA",
+    "GPQA"
+   ]
+  }
+ }
 }

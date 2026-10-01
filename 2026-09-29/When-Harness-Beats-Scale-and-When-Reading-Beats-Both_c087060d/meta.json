@@ -4,5 +4,37 @@
  "title": "When-Harness-Beats-Scale-and-When-Reading-Beats-Both",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-29 07:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/80720e60-f30d-4ff1-a430-ddf0810c0f30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/80720e60-f30d-4ff1-a430-ddf0810c0f30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:26:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document Grounded Reasoning",
+    "Program-of-Thoughts",
+    "Retrieval-Augmented Generation",
+    "Structured Output Training",
+    "Graph RAG",
+    "Benchmark Input Shift",
+    "DocSem"
+   ],
+   "field": "文档理解与定量推理",
+   "innovations": [
+    "PoT harness 在紧凑模型（7B）上的联合准确率提升（+0.282）远超等大模型缩放，27B harness 模型匹敌 72B 直接模型，参数比约 2.7:1、碳排放比约 4:1",
+    "通过 7B 谱系对比揭示 PoT 效果依赖结构化输出训练赋予的格式纪律，JSONSchemaBench 有效性可预测 PoT 效果符号方向",
+    "受控退化实验量化测试集光栅扫描输入退化的影响，证明读取质量而非推理架构主导 leaderboard 双峰分布"
+   ],
+   "benchmarks": [
+    "DocSem (DocInsights 2026)",
+    "GSM-SEM",
+    "JSONSchemaBench",
+    "IFEval",
+    "GSM8K",
+    "MMLU",
+    "NEREL-Bench",
+    "Librusec History (Russian QA)"
+   ]
+  }
+ }
 }

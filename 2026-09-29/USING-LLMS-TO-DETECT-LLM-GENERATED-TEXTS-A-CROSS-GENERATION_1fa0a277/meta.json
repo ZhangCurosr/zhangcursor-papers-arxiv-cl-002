@@ -4,5 +4,29 @@
  "title": "USING-LLMS-TO-DETECT-LLM-GENERATED-TEXTS-A-CROSS-GENERATION",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-29 19:06:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6455f2e1-ac3f-4e15-8763-eb45f4f200e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6455f2e1-ac3f-4e15-8763-eb45f4f200e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:22:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM生成文本检测",
+    "自检测",
+    "交叉检测",
+    "代际分析",
+    "零样本检测",
+    "错误分析"
+   ],
+   "field": "AI生成内容检测",
+   "innovations": [
+    "构建跨三代15模型的完整生成器-检测器矩阵基准并验证检测器代际主导假说",
+    "通过同代对照与统计检验驳斥自检测优势的普遍性",
+    "提出FPR/FNR+LLM语义+文献线索的多视角错误分析框架"
+   ],
+   "benchmarks": [
+    "M4GT-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "WHO-Is-LEFT-OF-WHOM-TRACING-SPATIAL-EVIDENCE-AND-ROLE-BINDIN",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-29 07:53:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b02ecc4f-9307-48fc-8173-3998f1af9abe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b02ecc4f-9307-48fc-8173-3998f1af9abe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:24:52",
+  "chunks": 1
+ }
 }

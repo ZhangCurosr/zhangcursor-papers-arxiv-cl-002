@@ -4,5 +4,34 @@
  "title": "TQTS-BENCH-A-MULTI-SYNTAX-BENCHMARK-FOR-TEXT-TO-QUERY-OVER-T",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-29 08:06:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f762a7a3-75aa-4b01-b75f-fef69463e123.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f762a7a3-75aa-4b01-b75f-fef69463e123.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:21:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Query",
+    "Time-Series Database",
+    "Benchmark",
+    "Large Language Model",
+    "Multi-Syntax",
+    "Temporal Query Intent"
+   ],
+   "field": "时序数据库文本到查询",
+   "innovations": [
+    "首个覆盖多语法、多领域、多时间意图的TSDB文本到查询基准TQTS-BENCH",
+    "提出人类中心AI辅助的QA构建与交叉验证流程，确保6125条数据高质量",
+    "系统揭示TQTS任务的三类核心瓶颈：语法异构、时间意图误解、模式链接困难"
+   ],
+   "benchmarks": [
+    "TQTS-BENCH",
+    "Spider",
+    "BIRD",
+    "Spider 2.0",
+    "TEFD",
+    "PromCopilot"
+   ]
+  }
+ }
 }

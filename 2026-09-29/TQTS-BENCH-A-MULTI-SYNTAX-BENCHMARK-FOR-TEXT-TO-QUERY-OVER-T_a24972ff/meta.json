@@ -4,5 +4,29 @@
  "title": "TQTS-BENCH-A-MULTI-SYNTAX-BENCHMARK-FOR-TEXT-TO-QUERY-OVER-T",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-29 19:07:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f762a7a3-75aa-4b01-b75f-fef69463e123.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f762a7a3-75aa-4b01-b75f-fef69463e123.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:21:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序数据库",
+    "文本到查询",
+    "基准测试",
+    "大型语言模型",
+    "多语法",
+    "时间特定意图"
+   ],
+   "field": "时序数据库查询",
+   "innovations": [
+    "提出首个覆盖多语法、多领域、多意图的 TSDB 文本到查询基准 TQTS‑BENCH",
+    "设计人审 AI 辅助的 QA 构建工作流，保障数据质量与真实性",
+    "系统揭示 LLM 与现有方法在 TSDB 查询上的性能瓶颈及错误成因"
+   ],
+   "benchmarks": [
+    "TQTS‑BENCH"
+   ]
+  }
+ }
 }

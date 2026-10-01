@@ -4,5 +4,34 @@
  "title": "WHEN-CAN-ATTENTION-HEADS-BE-STATICALLY-DEFINED",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 07:54:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:23:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "attention freezing",
+    "efficient training",
+    "fixed attention pattern",
+    "kernel fusion",
+    "head heterogeneity",
+    "causal language model"
+   ],
+   "field": "高效大语言模型训练",
+   "innovations": [
+    "提出 SAF：通过注意力方差选择低波动 head 并用固定均值模式替换其 QK 计算",
+    "设计 α+ρ 线性紧凑表示将 O(T²) 存储降至 O(T) 并配合融合 kernel 跳过 softmax",
+    "证明保留固定模式 token mixing 在关联回忆任务中显著优于同 head 数剪枝"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu pretraining",
+    "SST-2",
+    "BoolQ",
+    "QuALITY",
+    "MQAR",
+    "Qwen3-4B zero-shot"
+   ]
+  }
+ }
 }
