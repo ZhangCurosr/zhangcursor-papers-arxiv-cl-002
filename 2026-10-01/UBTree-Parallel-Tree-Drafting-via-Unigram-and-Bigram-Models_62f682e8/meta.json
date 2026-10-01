@@ -4,5 +4,37 @@
  "title": "UBTree-Parallel-Tree-Drafting-via-Unigram-and-Bigram-Models",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-01 08:19:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a34cbb9b-46ba-44fa-ac2e-f876fcc7a83a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a34cbb9b-46ba-44fa-ac2e-f876fcc7a83a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:53:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "parallel drafting",
+    "tree-based decoding",
+    "bigram selector",
+    "reparameterized KL",
+    "inference acceleration"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "并行大二元选择器解耦词元依赖与完全并行化",
+    "Tree-native 高温训练与重归一化KL损失弥合训练-推理差距",
+    "Deep Codebooks+Depth Calibration 自适应组合proposer与selector得分"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench",
+    "MT-Bench",
+    "LongBench-v2",
+    "SWE-bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "WHEN-CLIPPING-REVERSES-CORRECTION-FAILURE-DYNAMICS-OF-POINTW",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-01 08:20:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5e45c023-9dc4-4a1d-88e7-72edce1a96f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5e45c023-9dc4-4a1d-88e7-72edce1a96f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:54:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy self-distillation",
+    "pointwise clipping",
+    "forward KL divergence",
+    "training failure dynamics",
+    "text degeneration",
+    "logit gradient reversal",
+    "terminal loop",
+    "math reasoning"
+   ],
+   "field": "大语言模型训练优化",
+   "innovations": [
+    "证明逐点裁剪前向KL目标翻转被裁剪token的logit梯度方向，使学生概率远离而非靠近教师",
+    "推导固定裁剪区域下裁剪目标极小值要求学生将被裁剪token概率降至零而非恢复",
+    "通过配对训练实验验证裁剪导致终端循环数量较无裁剪对照组提升26-381倍"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "OpenThoughts"
+   ]
+  }
+ }
 }

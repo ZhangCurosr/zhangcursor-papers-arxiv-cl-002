@@ -4,5 +4,29 @@
  "title": "When-a-Kindergartener-Solves-Calculus-Measuring-Capability-L",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-01 08:19:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e9942361-e5ca-4f77-87b2-f83b296f0108.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e9942361-e5ca-4f77-87b2-f83b296f0108.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:54:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "role prompting",
+    "capability leakage",
+    "role-playing LLM",
+    "educational benchmark",
+    "inference-time intervention",
+    "alignment evaluation"
+   ],
+   "field": "角色提示与能力对齐",
+   "innovations": [
+    "定义并实证角色‑能力泄漏（RCL）现象，区分文本风格与能力边界对齐",
+    "提出 ROLECAPBENCH 基准，以标准化课程边界量化角色‑能力一致性",
+    "设计 Injection 推理时干预方法，通过预填充前缀激活角色能力边界"
+   ],
+   "benchmarks": [
+    "ROLECAPBENCH"
+   ]
+  }
+ }
 }

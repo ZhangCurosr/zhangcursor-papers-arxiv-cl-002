@@ -4,5 +4,10 @@
  "title": "ViLegalExpert-A-Large-Scale-Benchmark-for-Vietnamese-Legal-R",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-01 08:19:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d3f3e0b7-f589-4238-aafb-72d9899c33d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d3f3e0b7-f589-4238-aafb-72d9899c33d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:54:25",
+  "chunks": 1
+ }
 }

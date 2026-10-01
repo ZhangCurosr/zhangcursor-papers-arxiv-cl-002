@@ -4,5 +4,32 @@
  "title": "Understanding-Clinical-Cognitive-Dialogues-Using-Large-Langu",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-09-29 19:07:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/41570e23-6bb7-4191-88a7-b2e8e1c4f56e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/41570e23-6bb7-4191-88a7-b2e8e1c4f56e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:52:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话行为分类",
+    "临床认知评估",
+    "指令调优",
+    "推理感知微调",
+    "大型语言模型",
+    "患者语句生成",
+    "MRDA",
+    "细粒度对话分析"
+   ],
+   "field": "临床对话理解与语言模型适配",
+   "innovations": [
+    "构建首个面向认知评估对话的56类细粒度对话行为标注语料库与双任务基准",
+    "系统比较提示策略、域外指令调优与推理感知微调在临床对话理解中的迁移效应",
+    "揭示大语言模型在细粒度交际功能区分上的系统性局限（粗粒度强、细粒度弱）"
+   ],
+   "benchmarks": [
+    "Dialogue-Act Classification (56-class)",
+    "Patient Utterance Generation (BLEU/ROUGE/BERTScore)"
+   ]
+  }
+ }
 }

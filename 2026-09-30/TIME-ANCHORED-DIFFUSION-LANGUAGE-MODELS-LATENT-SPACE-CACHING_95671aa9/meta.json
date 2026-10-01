@@ -4,5 +4,34 @@
  "title": "TIME-ANCHORED-DIFFUSION-LANGUAGE-MODELS-LATENT-SPACE-CACHING",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-30 18:49:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion language models",
+    "latent-space caching",
+    "time-anchored diffusion",
+    "inference acceleration",
+    "self-supervised anchoring"
+   ],
+   "field": "扩散语言模型高效推理",
+   "innovations": [
+    "提出时间锚定的自监督 latent-space caching 框架，无需显式锚 token 监督即可跨步复用隐式表征",
+    "设计轻量融合模块通过残差校正融合当前态与过时锚，支持任意 K 间隔复用",
+    "提出 TADM:Post-train 和 TADM:Pretraining 两种实例化方案，分别在 DiffusionGemma-26B 和 OpenWebText 上实现最高 79% 吞吐提升和 38% 计算减少"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AIME26",
+    "GPQA-Diamond",
+    "LiveCodeBench-v6",
+    "HumanEval",
+    "MMLU-Pro",
+    "OpenWebText MAUVE/Gen PPL"
+   ]
+  }
+ }
 }

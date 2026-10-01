@@ -4,5 +4,36 @@
  "title": "TRAVERSE-LEARNING-WHEN-TO-REMEMBER-RESET-AND-REDIRECT-FOR-LO",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-30 08:06:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cbe84fe7-1f64-4099-8943-a0d242b328da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cbe84fe7-1f64-4099-8943-a0d242b328da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:53:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Long-Horizon Search",
+    "Agent Memory",
+    "Reinforcement Learning",
+    "Context Management",
+    "Self-Verification",
+    "BrowseComp"
+   ],
+   "field": "多智能体搜索与长上下文管理",
+   "innovations": [
+    "提出Rubric-Answer-Verify状态机与自主Seal Memory工具实现长程搜索的自管理",
+    "发现并解决Seal Collapse问题，设计仅优化最终分段的RL策略稳定记忆工具学习",
+    "在BrowseComp等基准上取得SOTA级性能，验证自主上下文压缩优于固定阈值自动压缩"
+   ],
+   "benchmarks": [
+    "BrowseComp",
+    "BrowseComp-ZH",
+    "DeepSearchQA",
+    "WideSearch",
+    "xbench",
+    "GAIA",
+    "FinSearchComp",
+    "ShoppingComp"
+   ]
+  }
+ }
 }

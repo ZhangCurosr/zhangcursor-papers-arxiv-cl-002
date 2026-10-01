@@ -4,5 +4,31 @@
  "title": "Unknown-is-not-normal-separating-language-model-extraction-f",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-29 08:04:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23cfba1f-5034-4e7b-9539-e689004fbf64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23cfba1f-5034-4e7b-9539-e689004fbf64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:52:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clinical risk scores",
+    "LLM extraction",
+    "three-state extraction",
+    "score bounds",
+    "missing-equals-normal",
+    "medical calculators",
+    "active question asking"
+   ],
+   "field": "临床 LLM 信息提取与安全决策",
+   "innovations": [
+    "将三态信息提取与确定性分数边界计算分离，仅询问能改变决策类别的信息",
+    "系统量化'缺失=正常'假设导致 8.5% 低分率漏诊的安全隐患",
+    "证明 9B 本地模型+规则代码即可达到 oracle 级准确率，优于端到端前沿 agent"
+   ],
+   "benchmarks": [
+    "MedCalc-Bench Verified",
+    "合成急诊队列（HEART/CURB-65/qSOFA/PERC/Wells/Cockcroft-Gault，n=1,200）"
+   ]
+  }
+ }
 }

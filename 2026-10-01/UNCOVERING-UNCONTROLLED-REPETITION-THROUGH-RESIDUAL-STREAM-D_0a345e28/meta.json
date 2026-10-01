@@ -4,5 +4,31 @@
  "title": "UNCOVERING-UNCONTROLLED-REPETITION-THROUGH-RESIDUAL-STREAM-D",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-10-01 08:28:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8fc4842a-9f3e-4be8-b6ae-08d6bb5c43de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8fc4842a-9f3e-4be8-b6ae-08d6bb5c43de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:53:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncontrolled repetition",
+    "residual stream",
+    "large vision-language models",
+    "resource consumption attack",
+    "activation intervention",
+    "interpretability"
+   ],
+   "field": "大语言模型安全与可解释性",
+   "innovations": [
+    "提出循环对齐的残差贡献变化度量（TRC），实现重复信号的浅层定位",
+    "构建模态无关的软掩码干预框架，在 LVLM/LLM/LRM 上均有效降低循环率",
+    "揭示重复语义在浅层形成并通过残差传播的机制，并提出双向因果验证"
+   ],
+   "benchmarks": [
+    "ScienceQA",
+    "TextVQA",
+    "MMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Understanding-Clinical-Cognitive-Dialogues-Using-Large-Langu",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-09-29 08:05:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/41570e23-6bb7-4191-88a7-b2e8e1c4f56e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/41570e23-6bb7-4191-88a7-b2e8e1c4f56e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:52:38",
+  "chunks": 1
+ }
 }

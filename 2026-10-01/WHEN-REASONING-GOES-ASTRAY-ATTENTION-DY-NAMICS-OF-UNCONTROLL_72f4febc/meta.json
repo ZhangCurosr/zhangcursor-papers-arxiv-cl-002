@@ -4,5 +4,33 @@
  "title": "WHEN-REASONING-GOES-ASTRAY-ATTENTION-DY-NAMICS-OF-UNCONTROLL",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-10-01 08:23:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ef93c904-66ea-41d7-9393-8b154ace5055.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ef93c904-66ea-41d7-9393-8b154ace5055.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:54:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Reasoning Models",
+    "Attention Dynamics",
+    "Uncontrolled Reasoning",
+    "Runtime Intervention",
+    "Adversarial Attacks",
+    "Reasoning State Classification"
+   ],
+   "field": "大模型推理安全与防御",
+   "innovations": [
+    "将LRM生成过程形式化为四种推理状态并通过PAS/CTS注意力特征实时诊断",
+    "设计Attention Realignment状态引导干预策略在保留良性推理的同时降低失控循环率",
+    "发现有害状态注意力信号可在重复发生前提前检测的机制性证据"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GPQA",
+    "MMLU-Geor",
+    "MMLU-Econometrics",
+    "MMLU-World-History"
+   ]
+  }
+ }
 }

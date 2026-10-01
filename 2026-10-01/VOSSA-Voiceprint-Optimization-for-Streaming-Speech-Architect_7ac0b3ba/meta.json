@@ -4,5 +4,33 @@
  "title": "VOSSA-Voiceprint-Optimization-for-Streaming-Speech-Architect",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-01 08:20:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c5648f8a-4277-4d3f-b6de-f4301c67c335.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c5648f8a-4277-4d3f-b6de-f4301c67c335.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:53:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "voice conversion",
+    "streaming speech",
+    "speaker embedding",
+    "self-supervised learning",
+    "formant analysis"
+   ],
+   "field": "流式语音转换与说话人表征学习",
+   "innovations": [
+    "从内容编码器中间层直接提取说话人表征，省去独立ASV编码器",
+    "双路径训练（自重建+跨说话人VC）联合优化说话人与内容目标",
+    "引入说话人一致性损失与对比正则化增强表征判别性"
+   ],
+   "benchmarks": [
+    "LibriTTS",
+    "VoxCeleb",
+    "VCTK",
+    "ARCTIC",
+    "L2-ARCTIC",
+    "EMIME"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "TIME-ANCHORED-DIFFUSION-LANGUAGE-MODELS-LATENT-SPACE-CACHING",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-30 08:02:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5d2e8bf7-d004-46c9-bc7c-58e53375c70d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5d2e8bf7-d004-46c9-bc7c-58e53375c70d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:52:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Model",
+    "Latent-space Caching",
+    "Anchor-based Generation",
+    "Inference Acceleration",
+    "Discrete Diffusion"
+   ],
+   "field": "扩散语言模型高效推理",
+   "innovations": [
+    "将锚点从显式token监督扩展为自监督latent缓存，支持跨多步复用",
+    "设计gated fusion模块以current-state校正stale-anchor的时序失配",
+    "提出T-ANELBO统一自监督/有监督时间锚定训练目标"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AIME26",
+    "GPQA-Diamond",
+    "LiveCodeBench-v6",
+    "HumanEval",
+    "MMLU-Pro",
+    "OpenWebText"
+   ]
+  }
+ }
 }
